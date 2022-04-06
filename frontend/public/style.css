@@ -32,3 +32,21 @@ select {
 }
 /*END OF CSS RESET*/
 
+.swiper{
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide h2 {
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color:aqua;
+    color:brown;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
