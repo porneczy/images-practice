@@ -10,6 +10,7 @@ const pathtoFrontend = path.join(`${__dirname}/../frontend`)
 
 app.use(express.json())
 app.use('/pub', express.static(`${pathtoFrontend}/public`))
+app.use('/dist', express.static(`${pathtoFrontend}/dist`))
 
 
 app.get('/', (req, res, next) => {
